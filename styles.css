@@ -1,0 +1,90 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    white-space: nowrap;
+}
+
+/* CELL */
+
+.cell {
+    width: 40px;
+    height: 40px;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+
+    border: solid;
+    border-width: 1px;
+    border-color: grey;
+    background-color: lightgrey;
+    color: lightgrey;
+
+    font-weight: bold;
+}
+
+/* MINE CELLS */
+
+.markedMine {
+    color: #ab2b4f;
+}
+
+.mine {
+    color: #ab2b4f;
+}
+
+.wrongMine {
+    background-color: salmon;
+    color: salmon;
+}
+
+/* UNCOVERED CELLS */
+
+.uncovered {
+    background-color: cornflowerblue;
+}
+
+.uncovered0 {
+    background-color: lightblue;
+    color: lightblue;
+}
+
+.uncovered1 {
+    color: #ffffff;
+}
+
+.uncovered2 {
+    color: #ffd6ff;
+}
+
+.uncovered3 {
+    color: #ffd6dd;
+}
+
+.uncovered4 {
+    color: #fff1d6;
+}
+
+.uncovered5 {
+    color: #ebffd6;
+}
+
+.uncovered6 {
+    color: #d6ffe4;
+}
+
+.uncovered7 {
+    color: #ffa6da;
+}
+
+.uncovered8 {
+    color: #ffbca6;
+}
+
+/* SCOREBOARD */
+
+.scoreboard {
+    font-family: "Arial";
+}
